@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Private Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="auth-container">
+        <button id="google-login">Login with Google</button>
+        <button id="github-login">Login with GitHub</button>
+    </div>
+    <div id="endpoint-container">
+        <input type="text" id="custom-endpoint" placeholder="Inference API Endpoint">
+    </div>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search & Query...">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
